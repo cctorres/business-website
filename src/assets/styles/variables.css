@@ -1,0 +1,11 @@
+:root {
+  --primary-color: #000000;
+  --secondary-color: #c90404;
+  --dark-primary-color: #aa0202;
+  --black-color: #2c3e50;
+  --white-color: #ffffff;
+  --font-family: Avenir, Helvetica, Arial, sans-serif;
+  --webkit-font-smoothing: antialiased;
+  --moz-osx-font-smoothing: grayscale;
+  --text-align: center;
+}
