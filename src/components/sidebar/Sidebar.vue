@@ -14,8 +14,14 @@
         <div>Colegio Técnico de Magia Metropolitana de Tokio</div></span
       >
     </h3>
-    <SidebarLink to="/" icon="fas fa-home">Home</SidebarLink>
-    <SidebarLink to="/about" icon="fas fa-columns">About</SidebarLink>
+    <SidebarLink to="/" icon="fas fa-home">Inicio</SidebarLink>
+    <SidebarLink to="/nosotros" icon="fas fa-info-circle"
+      >Sobre nosotros</SidebarLink
+    >
+    <SidebarLink to="/miembros" icon="fas fa-users">Miembros</SidebarLink>
+    <SidebarLink to="/actualidad" icon="fas fa-newspaper"
+      >Actualidad</SidebarLink
+    >
 
     <span
       class="collapse-icon"
@@ -51,7 +57,7 @@ export default {
   top: 0;
   left: 0;
   bottom: 0;
-  padding: 0.5em;
+  padding: 1%;
   transition: 0.3s ease;
 }
 
@@ -65,5 +71,9 @@ export default {
 .rotate-180 {
   transform: rotate(180deg);
   transition: 0.2s linear;
+}
+
+h3 {
+  height: 20vh;
 }
 </style>

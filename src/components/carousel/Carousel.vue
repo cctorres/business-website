@@ -14,7 +14,7 @@ export default {};
 
 <style>
 .carousel-image {
-  width: auto;
+  width: 100%;
   height: 60vh;
   object-fit: cover;
 }

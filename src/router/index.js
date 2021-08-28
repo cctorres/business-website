@@ -1,16 +1,26 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "../views/Home.vue";
+import Inicio from "../views/Inicio.vue";
 
 const routes = [
   {
     path: "/",
-    name: "Home",
-    component: Home,
+    name: "Inicio",
+    component: Inicio,
   },
   {
-    path: "/about",
-    name: "About",
-    component: () => import("../views/About.vue"),
+    path: "/nosotros",
+    name: "Nosotros",
+    component: () => import("../views/Nosotros.vue"),
+  },
+  {
+    path: "/miembros",
+    name: "Miembros",
+    component: () => import("../views/Miembros.vue"),
+  },
+  {
+    path: "/actualidad",
+    name: "Actualidad",
+    component: () => import("../views/Actualidad.vue"),
   },
 ];
 

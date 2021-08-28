@@ -4,9 +4,12 @@
       :accessToken="mapOptions.accessToken"
       :center="mapOptions.center"
       :zoom="mapOptions.zoom"
+      :style="mapOptions.style"
       ><mapbox-marker :lngLat="mapOptions.center" :draggable="true">
         <mapbox-popup>
           <div>Escuela técnica de magos de Tokyo</div>
+          <div>¡Te esperamos!</div>
+          <img src="../../assets/images/logo/logo.svg" alt="logo" />
         </mapbox-popup>
       </mapbox-marker>
     </mapbox-map>
@@ -25,9 +28,10 @@ export default defineComponent({
   },
   setup() {
     const mapOptions = {
-      accessToken:process.env.VUE_APP_MAPBOX_KEY,
+      accessToken: process.env.VUE_APP_MAPBOX_KEY,
       center: [139.7746162, 35.721753],
       zoom: 17,
+      style: "mapbox://styles/mapbox/dark-v10",
     };
     return {
       mapOptions,
@@ -35,3 +39,14 @@ export default defineComponent({
   },
 });
 </script>
+
+<style scoped>
+img {
+  width: 25px;
+  height: 25px;
+}
+
+div {
+  color: var(--primary-color);
+}
+</style>

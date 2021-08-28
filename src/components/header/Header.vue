@@ -1,8 +1,8 @@
 <template>
   <div class="header-container">
-    <p>Tel: 555 5555</p>
-    <p>Correo: c.torresalzate@gmail.com</p>
-    <p>Dir: Cra 74# 89a - 113, Tokyo</p>
+    <p><i class="fas fa-phone"></i> 555 5555</p>
+    <p><i class="fas fa-envelope"></i> c.torresalzate@gmail.com</p>
+    <p><i class="fas fa-building"></i> Tokyo, Japón</p>
   </div>
 </template>k
 
@@ -18,11 +18,11 @@ export default {};
   justify-content: space-around;
   background-color: var(--secondary-color);
   height: 3vh;
-  width: 100vw-3.75rem;
+  width: 90%;
   color: var(--white-color);
   font-weight: bolder;
-  padding: 0.2rem;
-  margin-left: 3.75rem;
+  margin-left: 10%;
+  padding: 0.5rem 0;
 }
 
 @media (max-width: 600px) {
