@@ -12,7 +12,7 @@ export default {
     let result = ref([]);
     onMounted(async () => {
       const response = await fetch(
-        "https://newsapi.org/v2/everything?q=Jujutsu%20kaisen&sortBy=popularity&language=es&apiKey=f4d4a439ccf8421ca72123a74d7f05c2"
+        "https://newsapi.org/v2/everything?q=Jujutsu%20kaisen&sortBy=popularity&language=es&apiKey="+process.env.VUE_APP_NEWSAPI_KEY
       );
       const data = await response.json();
       result.value = data.articles;
