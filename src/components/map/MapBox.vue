@@ -28,7 +28,7 @@ export default defineComponent({
   },
   setup() {
     const mapOptions = {
-      accessToken: "pk.eyJ1IjoiaGFueGVvIiwiYSI6ImNrcW9iYmszZDBpdXgydXIxdDBmbXd4MTAifQ.ftQXZqTKYzU8H1dQWB-D8A",
+      accessToken: process.env.VUE_APP_MAPBOX_KEY,
       center: [139.7746162, 35.721753],
       zoom: 17,
       style: "mapbox://styles/mapbox/dark-v10",
