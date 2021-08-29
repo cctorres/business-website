@@ -97,7 +97,7 @@ export default {
       yujiTexto: "Recipiente del Rey de las Maldiciones, Sukuna.",
       shokoNombre: "Shoko Ieiri",
       shokoImagen: "Shoko.png",
-      shokoTexto: "Es una chamán y doctora.",
+      shokoTexto: "Es una chamán Jujutsu y doctora del colegio.",
       kiyotakaNombre: "Kiyotaka Ijichi",
       kiyotakaImagen: "Kiyotaka.jpeg",
       kiyotakaTexto: "Asistente auxiliar e informante de las misiones.",

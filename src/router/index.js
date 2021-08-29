@@ -17,11 +17,6 @@ const routes = [
     name: "Miembros",
     component: () => import("../views/Miembros.vue"),
   },
-  {
-    path: "/actualidad",
-    name: "Actualidad",
-    component: () => import("../views/Actualidad.vue"),
-  },
 ];
 
 const router = createRouter({

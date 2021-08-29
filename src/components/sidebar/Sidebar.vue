@@ -19,10 +19,6 @@
       >Sobre nosotros</SidebarLink
     >
     <SidebarLink to="/miembros" icon="fas fa-users">Miembros</SidebarLink>
-    <SidebarLink to="/actualidad" icon="fas fa-newspaper"
-      >Actualidad</SidebarLink
-    >
-
     <span
       class="collapse-icon"
       :class="{ 'rotate-180': collapsed }"
