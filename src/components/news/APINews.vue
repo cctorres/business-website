@@ -2,7 +2,7 @@
   <ul v-if="result.length">
     <li v-for="r in result" :key="r.title">{{ r.title }}</li>
   </ul>
-  <p v-else>No hay usuarios disponible</p>
+  <p v-else>Cargando...</p>
 </template>
 
 <script>
