@@ -79,7 +79,7 @@ export default {
     return {
       masamichiNombre: "Masamichi Yaga",
       masamichiImagen: "Masamichi.png",
-      masamichiTexto: "Entrevistador todo aquel que aplique al colegio.",
+      masamichiTexto: "Entrevistador de todo aquel que aplique al colegio.",
       satoruNombre: "Satoru Gojo",
       satoruImagen: "Satoru.png",
       satoruTexto: "Único miembro y cabeza del Clan Gojo",

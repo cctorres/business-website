@@ -4,7 +4,7 @@
     <p><i class="fas fa-envelope"></i> c.torresalzate@gmail.com</p>
     <p><i class="fas fa-building"></i> Tokyo, Japón</p>
   </div>
-</template>k
+</template>
 
 <script>
 export default {};
