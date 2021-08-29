@@ -49,12 +49,14 @@ export default {
   height: 1.5em;
   color: white;
   text-decoration: none;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 .link:hover {
   background-color: var(--secondary-color);
 }
 .link.active {
-  background-color: var(--dark-primary-color);
+  background-color: var(--dark-secondary-color);
 }
 .link .icon {
   flex-shrink: 0;

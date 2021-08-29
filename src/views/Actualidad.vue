@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import APINews from "../components/news/APINews.vue";
+import APINews from "../components/new/APINews.vue";
 export default {
   components: {
     APINews,

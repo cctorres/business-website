@@ -59,15 +59,24 @@ export default {
   bottom: 0;
   padding: 1%;
   transition: 0.3s ease;
+  align-items: center;
 }
 
 .collapse-icon {
   position: absolute;
-  bottom: 0;
+  bottom: 20%;
   padding: 0.75em;
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--white-color);
   transition: 0.2s linear;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  cursor: pointer;
 }
+
+.collapse-icon:hover {
+  background-color: var(--dark-secondary-color);
+}
+
 .rotate-180 {
   transform: rotate(180deg);
   transition: 0.2s linear;
