@@ -54,7 +54,8 @@ a {
 @media (max-width: 600px) {
   .bottom-container {
     flex-direction: column;
-    height: 6vh;
+    height: auto;
+    width: 100%;
   }
 }
 </style>
