@@ -105,6 +105,7 @@ export default {};
   border: 1px solid var(--secondary-color);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
   height: 60vh;
+  overflow: auto;
 }
 
 @media (max-width: 600px) {
