@@ -53,7 +53,6 @@ export default {
 @media (max-width: 600px) {
   .inicio-container {
     flex-direction: column;
-    width: 100%;
   }
 }
 </style>

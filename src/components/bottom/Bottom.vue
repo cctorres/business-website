@@ -55,7 +55,6 @@ a {
   .bottom-container {
     flex-direction: column;
     height: auto;
-    width: 100%;
   }
 }
 </style>

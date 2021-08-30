@@ -17,6 +17,11 @@ const routes = [
     name: "Miembros",
     component: () => import("../views/Miembros.vue"),
   },
+  {
+    path: "/tvshow",
+    name: "TVShow",
+    component: () => import("../views/TVShow.vue"),
+  },
 ];
 
 const router = createRouter({

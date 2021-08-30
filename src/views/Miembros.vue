@@ -1,5 +1,6 @@
 <template>
   <div class="miembros-container">
+    <h1>Miembros</h1>
     <div class="instructores">
       <h2>Instructores</h2>
       <div class="instructores-container">
@@ -160,7 +161,6 @@ export default {
 @media (max-width: 600px) {
   .miembros-container {
     flex-direction: column;
-    width: 100%;
   }
 
   .instructores-container,

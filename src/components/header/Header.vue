@@ -29,7 +29,6 @@ export default {};
   .header-container {
     flex-direction: column;
     height: auto;
-    width: 100%;
   }
 }
 </style>

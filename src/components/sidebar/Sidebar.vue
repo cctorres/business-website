@@ -19,6 +19,7 @@
       >Sobre nosotros</SidebarLink
     >
     <SidebarLink to="/miembros" icon="fas fa-users">Miembros</SidebarLink>
+    <SidebarLink to="/tvshow" icon="fas fa-tv">TVShow</SidebarLink>
     <span
       class="collapse-icon"
       :class="{ 'rotate-180': collapsed }"

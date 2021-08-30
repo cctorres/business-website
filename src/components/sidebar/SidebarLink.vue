@@ -49,8 +49,6 @@ export default {
   height: 1.5em;
   color: white;
   text-decoration: none;
-  width: 2.5rem;
-  height: 2.5rem;
 }
 .link:hover {
   background-color: var(--secondary-color);

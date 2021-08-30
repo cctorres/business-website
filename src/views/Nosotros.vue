@@ -110,7 +110,6 @@ export default {};
 @media (max-width: 600px) {
   .nosotros-container {
     flex-direction: column;
-    width: 100%;
   }
 
   .curriculum,
