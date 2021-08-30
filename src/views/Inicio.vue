@@ -11,7 +11,7 @@
       </p>
     </div>
     <div class="mapa">
-      <h1>Encuentranos</h1>
+      <h1>Encuéntranos</h1>
       <div class="separador"></div>
       <GoogleMap />
     </div>
