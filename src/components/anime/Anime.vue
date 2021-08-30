@@ -68,6 +68,10 @@ export default {
   margin: 0 0.5rem;
 }
 
+img{
+  width: 100%;
+}
+
 h2 {
   background-color: var(--secondary-color);
   padding: 0.2rem;
@@ -88,6 +92,12 @@ h2 {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 600px) {
+  .anime-info {
+    overflow-x: auto;
   }
 }
 </style>
