@@ -3,9 +3,7 @@
     <div v-for="r in result" :key="r.id">
       <div class="anime-container">
         <h1>{{ r.attributes.canonicalTitle }}</h1>
-        <img
-          src="https://m.media-amazon.com/images/I/81tSqWi40uL._AC_SL1500_.jpg"
-        />
+        <img v-bind:src="r.attributes.posterImage.original" />
         <div class="anime-info">
           <div class="square-info">
             <h2>Ranking</h2>
@@ -39,10 +37,11 @@ export default {
       const response = await fetch("https://kitsu.io/api/edge/anime/42765");
       const data = await response.json();
       result.value = data;
+
+      console.log(data);
     });
     return { result };
   },
-  testLog() {},
 };
 </script>
 
@@ -68,7 +67,7 @@ export default {
   margin: 0 0.5rem;
 }
 
-img{
+img {
   width: 100%;
 }
 
