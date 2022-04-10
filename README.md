@@ -1,5 +1,9 @@
 # business-website
 
+A simple business website uring Jujutsu Kaisen School like a company. 
+
+App using VueJS, JujutsuKaisen API and featured in Netlify
+
 ## Project setup
 ```
 npm install
@@ -15,10 +19,6 @@ npm start
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Deploy
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://cctorres-business-website.netlify.app/
